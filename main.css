@@ -38,12 +38,49 @@ hr {
     width: 45%;
 }
 
+#page-title {
+    font-weight: bold;
+}
+
 table, .bk1, .figd {
     margin: 0 auto;
 }
 
 td {
     vertical-align: bottom;
+}
+
+.pagenum {
+    position: absolute;
+    right: 1%;
+    font-size: small;
+}
+
+p {
+    text-align: justify;
+    margin-top: 0.75em;
+    margin-bottom: 0.75em;
+}
+
+pre {
+    text-align: center;
+    margin: 100px auto;
+    width: fit-content;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+pre a,
+pre a:visited,
+pre a:hover {
+  color: black;
 }
 
 .td1 {
